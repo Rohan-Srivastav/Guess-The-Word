@@ -1,0 +1,57 @@
+body{
+
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59, #c6ffdd, #fbd786, #f7797d);
+}
+
+#send_btn{
+
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59, #c6ffdd, #fbd786, #f7797d);
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid lightsalmon;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+
+#player1_name , #player2_name{
+
+    margin-left: 10px;
+}
+
+#player1_score , #player2_score{
+
+    margin-left: 10px;
+}
+
+#myDialog{
+
+width: 90%;
+height: 90%;
+background-color: lightcoral;
+    
+}
+    
+#img1{
+    
+width: 97%;
+height: 545px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+
+
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
